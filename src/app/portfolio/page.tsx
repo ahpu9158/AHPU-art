@@ -53,7 +53,7 @@ export default function GalleryDrive() {
                     alt="Comic Example"
                 />
                 <a
-                    href="https://cara.app/ahpu"
+                    href="https://www.webtoons.com/en/canvas/sunflos/list?title_no=989921"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 justify-center rounded-lg border-2 border-gray-300 py-4 px-6 text-black font-medium transition-all duration-300 hover:scale-[1.02] hover:text-purple-500 hover:border-purple-500"
