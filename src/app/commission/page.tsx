@@ -10,7 +10,7 @@ import { AnimatePresence, motion } from "framer-motion";
 export default function CommissionPage() {
   const [selectedType, setSelectedType] = useState("");
   const selectedClass = "rounded-md bg-purple-200 px-4 py-2 text-purple-800 font-semibold hover:bg-purple-300 transition-colors duration-200 whitespace-nowrap";
-  const unselectedClass = "rounded-md bg-gray-200 px-4 py-2 text-gray-800 font-semibold hover:bg-gray-300 transition-colors duration-200 whitespace-nowrap";
+  const unselectedClass = "rounded-md border px-4 py-2 text-gray-800 font-semibold hover:text-purple-800 transition-colors duration-200 whitespace-nowrap";
   return (
     <div className="overflow-auto  min-h-screen flex items-center justify-center py-10 px-2 sm:px-0">
       <div className="text-center flex flex-col w-full max-w-2xl mx-auto">
@@ -21,7 +21,7 @@ export default function CommissionPage() {
           height={500}
           className="w-full max-w-xs sm:max-w-md h-auto mx-auto mb-4"
         />
-        <h1 className="text-3xl sm:text-4xl font-bold mb-4">Commission</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold mb-4 font-serif">AHPU's Commission</h1>
         
         <div className="flex flex-row sm:flex-row overflow-x-auto space-x-2 sm:space-x-4 mb-8 py-2" style={{ scrollbarWidth: "none" as any, msOverflowStyle: "none" as any }}>
           <style jsx>{`
